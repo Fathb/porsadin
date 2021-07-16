@@ -1,0 +1,135 @@
+* {
+ margin: 0;
+ padding: 0;
+ font-family: Tahoma;
+}
+body {
+ width: 100vw;
+ min-height: 100vh;
+ background-color: #f1f1f1;
+}
+.container {
+ width: 80%;
+ min-width: 750px;
+ margin: 10px auto;
+ background-color: #fff;
+}
+.header {
+ height: 200px;
+ width: 90%;
+ border-bottom: 1px solid black;
+ margin: 5px auto;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+.text {
+ margin-left: 0;
+ text-align: center;
+}
+.text h2 {
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+.text p {
+ margin-top: 20px;
+}
+.main-content {
+ width: 90%;
+ margin: 15px auto;
+ padding-bottom: 30px;
+}
+h3 {
+ text-align: center;
+ margin-bottom: 5px;
+}
+form {
+ width: auto;
+ margin: 35px 0;
+ display: flex;
+ flex-direction: column;
+ align-content: center;
+ justify-content: center;
+}
+.inputs {
+ width: auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-bottom: 5px;
+ border-bottom: 1px dotted lightgreen;
+ margin: 10px 5px;
+}
+.inputs label {
+ width: 30%;
+}
+.inputs p {
+ display: block;
+ width: 1%;
+}
+.inputs input,
+.inputs textarea,
+.inputs select {
+ width: 65%;
+ background: #fff;
+ border: .5px solid green;
+ border-radius: 10px;
+ padding: 5px;
+ text-transform: uppercase;
+}
+button {
+ margin: 15px auto;
+ background-color: green;
+ border-radius: 8px;
+ cursor: pointer;
+ width: 150px;
+ padding: 8px;
+ color: white;
+}
+
+@media(max-width:578px) {
+ .container {
+  min-width: 450px;
+  font-size: 10px;
+ }
+ .header {
+  height: 100px;
+ }
+ .image img {
+  height: 90px;
+  width: auto;
+ }
+ .text h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+ }
+ .text p {
+  margin-top: 10px;
+ }
+ form {
+  margin: 15px;
+ }
+ .inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 5px 5px 10px;
+ }
+ .inputs label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 10px;
+  font-weight: bold;
+ }
+ .inputs p {
+  display: none;
+ }
+ .inputs input,
+ .inputs textarea,
+ .inputs select {
+  width: 100%;
+  font-size: 10px;
+ }
+}
