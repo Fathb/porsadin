@@ -21,7 +21,7 @@ body {
  margin: 5px auto;
  display: flex;
  align-items: center;
- justify-content: space-around;
+ justify-content: flex-start;
 }
 .text {
  margin-left: 0;
@@ -94,6 +94,7 @@ button {
  }
  .header {
   height: 100px;
+  justify-content: space-around;
  }
  .image img {
   height: 90px;
