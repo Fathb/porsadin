@@ -21,7 +21,7 @@ body {
  margin: 5px auto;
  display: flex;
  align-items: center;
- justify-content: flex-start;
+ justify-content: center;
 }
 .image {
  margin-left: 20px;
