@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzU-DdWrS1BTluOrOEhyON_wcT1YRaeTxWBxWk_szdM63UldqimAxLL1YaaTwd_8oMjDA/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyZhtmP2IUe5V9Y9VEWC3v4zvGTFvDJO7LibRDrAK9bWXaHz6jsGgtnhoqpK8iqRfkHAw/exec';
 const form = document.forms['data-anggota'];
 const nik = document.querySelector("#nik");
 const namaLengkap = document.querySelector("#namaLengkap");
