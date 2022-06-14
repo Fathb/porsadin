@@ -2,32 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORSADIN GONDANGLEGI 2022</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORSADIN GONDANGLEGI 2022</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container container-lg">
-        <div class="header text-center bg-info p-lg-2">
-            <h3>FORMULIR PENDAFTARAN PORSADIN</h3>
-            <h3>KECAMATAN GONDANGLEGI</h3>
-            <h3>TAHUN 2022</h3>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
-        </div>
-        <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-        </div>
+  <div class="container container-lg">
+    <div class="header text-center bg-info">
+      <h3>FORMULIR PENDAFTARAN PORSADIN</h3>
+      <h3>KECAMATAN GONDANGLEGI</h3>
+      <h3>TAHUN 2022</h3>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <form name="data-peserta" accept-charset="utf-8">
+      <div class="form-floating my-3">
+        <input type="text" class="form-control" id="nama" name="nama" placeholder="name@example.com">
+        <label for="nama">NAMA LENGKAP</label>
+      </div>
+      <div class="form-floating my-3">
+        <input type="text" class="form-control" id="tpLhr" name="tpLhr" placeholder="name@example.com">
+        <label for="tpLhr">TEMPAT LAHIR</label>
+      </div>
+      <div class="form-floating my-3">
+        <input type="date" class="form-control" id="tglLhr" name="tglLhr" placeholder="Password">
+        <label for="tglLhr">TANGGAL LAHIR</label>
+      </div>
+      <div class="form-floating my-3">
+        <input type="text" class="form-control" id="alamar" name="alamar" placeholder="name@example.com">
+        <label for="alamar">ALAMAT</label>
+      </div>
+      <div class="form-floating my-3">
+        <input type="text" class="form-control" id="namaLembaga" name="namaLembaga" placeholder="name@example.com">
+        <label for="namaLembaga">NAMA LEMBAGA / MADIN</label>
+      </div>
+      <input type="submit" class="btn btn-success" value="daftar" />
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
